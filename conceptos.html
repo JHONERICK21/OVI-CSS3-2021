@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>CSS3</title>
+			<link rel="stylesheet" href="css/estilos.css">
+		</head>
+		
+		<body>
+			<header class="site-header inicio">
+		
+				<div class="contenedor contenido-header">
+					<div class="barra">
+						<a href="">
+							<img src="img/logo_unad.png">
+						</a>
+		
+						<div class="mobile-menu">
+							<a href="">
+								<img src="img/barras.svg">
+							</a>
+						</div>
+		
+						<nav class="navegacion">
+							<a href="index.html">Inicio</a>
+							<a href="conceptos.html">Conceptos</a>
+							<a href="recursos.html">Recursos</a>
+							<a href="autoevaluacion.html">Autoevaluación</a>
+							<a href="autor.html">Autor</a>
+						</nav>
+		
+					</div>
+					<h1 class="tituloinicio">
+						CCS3,Estilos Internos,Externos y Selectores
+					</h1>
+				</div>
+
+				<section class="seccion contenedor">
+					<h2 class="fw-300 centrar-texto">
+						 CSS3 </h2>
+					<div class="icono-objetivos">
+						<div class="icono">
+							<img src="img/css3-concepto1.png" alt="">
+							<h3>
+								¿ Que es CSS3 ?
+							</h3>
+							<p>El nombre hojas de estilo en cascada viene del inglés Cascading Style Sheets, del que toma sus siglas. CSS es un lenguaje usado para definir la presentación de un documento estructurado escrito en HTML o XML (y por extensión en XHTML). El W3C(World Wide Web Consortium) es el encargado de formular la especificación de las hojas de estilo que servirán de estándar para los agentes de usuario o navegadores.
+							</p>
+						</div>
+						<div class="icono">
+							<img src="img/concepto1.jpg" alt="">
+							<h3>
+								¿ Como Funciona ?
+							</h3>
+							<p>
+								CSS utiliza una sintaxis basada en reglas. Cada regla se compone de un selector, una o varias declaraciones, una declaración es una combinación de propiedades y valores.
+								<ul>
+									<li>Los Selectores ayudan a conectar las etiquetas HTML con los estilos definidos en la regla.</li>
+									<li>Una Declaración se forma de una propiedad y un valor. Las declaraciones de una regla se definen entre “{}” separadas por “;”.</li>
+									<li>Las propiedades son los estilos que se desean modificar, como son: las fuentes, el color, el tamaño, el margen, el borde, el fondo entre otros.</li>
+									<li>A cada propiedad se le asigna un valor, por ejemplo: azul, verde, 25px, entre otros</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</section>
+				<main class="seccion contenedor">
+					<h2 class="fw-300 centrar-texto">CSS Estilos</h2>
+					<div class="contenido-anuncios">
+						<div class="anuncios">
+							<img src="img/css3-interno.png" alt="">
+							<div class="contenido-anuncio">
+								<h3 class="subtitulo">
+									Estilos Internos
+								</h3>
+								<p class="parrafo">Aplicando los estilos dentro de la etiqueta style de nuestro HTML, podemos tener nuestro HTML con sus respectivos estilos en el mismo documento. Sin embargo, no podemos usar esos estilos en otro documento, para eso tendríamos que copiar y pegar los estilos en otro documento HTML.
+								</p>
+								<img src="img/css-interno.png">
+								<p class="parrafo">
+									Esto puede ser útil en algunas circunstancias (tal vez estés trabajando con un sistema de administración de contenido donde no sea posible modificar los archivos CSS directamente), pero no es tan eficiente como las hojas de estilo externas: en una página web, deberías repetir el CSS en cada página y actualizarlo en varios lugares en caso de que hubiera que hacer cambios.
+								</p>
+								<h3 class="subtitulo">
+									Estilo Inline
+								</h3>
+								<img src="img/css-inline1.png">
+								<p class="parrafo">Esta es la forma menos recomendable de aplicar estilos a una etiqueta HTML. Ya que tendríamos que estilizar de forma individual cada componente de nuestro documento.
+								</p>
+							</div>
+						</div>
+						
+						<div class="anuncios">
+							<img src="img/css3-externo.png" alt="">
+							<div class="contenido-anuncio">
+								<h3 class="subtitulo">
+									Estilos Externos
+								</h3>
+								<p class="parrafo">Este es el método más recomendable por buenas prácticas, nos referimos al método externo. Como su nombre lo dice, hace uso de fuente externas, es decir, de uno varios archivos CSS.
+									Para ligar un archivo CSS con nuestro documento HTML hacemos uso de la etiqueta link dentro del < header > en la página.
+								</p>
+								<img src="img/externo1.png">
+								<p class="parrafo">
+									Una hoja de estilos CSS puede escribirse con cualquier editor de texto. El archivo no debe contener ninguna etiqueta HTML. El archivo de hoja de estilos debe ser guardada con la extensión .css.
+								</p>
+								<img src="img/externo2.png">
+								<p class="parrafo"> CSS u Hojas de Estilo en Cascada (Cascading Style Sheets) se utiliza para controlar la presentación, el formato, y el diseño de nuestra aplicación. Gracias a ella podemos dar forma al estilo que queremos que se muestre.
+								</p>
+								<img src="img/ejemploexterno.png" alt="">
+							</div>	
+						</div>
+			
+						<div class="anuncios">
+							<img src="img/selector-clase-ccs3.png" alt="">
+							<div class="contenido-anuncio">
+								<h3 class="subtitulo">
+									Selectores CSS
+								</h3>
+								<p class="parrafo">Todos los elementos HTML tienen un atributo class. Este atributo se usa para especificar el nombre de la clase que se usará para afectar los estilos del elemento.
+									Los selectores de clase buscan los elementos HTML que tengan cierto valor en el atributo class.
+								</p>
+								<img src="img/selector.png" alt="">
+								<p class="parrafo">Una clase se puede aplicar a uno o más elementos HTML. Es decir, las reglas CSS con selectores de clase pueden ser reutilizados en varios elementos HTML haciendo más sencilla la declaración de estilos.La regla CSS del selector inicia con un punto (.) y el nombre de la clase, por ejemplo.
+								</p>
+								<img src="img/selector2.png">
+								<p class="parrafo">De igual forma, se puede asignar más de una clase a un elemento HTML. Para lo cual se requiere escribir el nombre de las clases separados por un espacio en blanco dentro del atributo class del elemento.
+								</p>
+								<img src="img/selector1.png" alt="">
+
+							</div>
+						</div>
+					</div>
+				</main>
+				<footer class="final seccion ">
+					<div class="contenedor contenedor-final">
+						<nav class="navegacion">
+							<a href="index.html">Inicio</a>
+							<a href="conceptos.html">Conceptos</a>
+							<a href="recursos.html">Recursos</a>
+							<a href="autoevaluacion.html">Autoevaluación</a>
+							<a href="autor.html">Autor</a>
+						</nav>  
+					</div>
+				</footer>
+
+</body>
+</html>

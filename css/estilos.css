@@ -21,13 +21,13 @@ body{
     line-height: 2;
 }
 h1{
-    font-size: 3.6 rem;
+    font-size: 2.5rem;
 }
 h2{
-    font-size: 3.4rem;
+    font-size: 3.0rem;
 }
 h3{
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 /*utilidades*/
 .seccion{
@@ -160,7 +160,7 @@ h3{
     }
 }
 .icono{
-    text-align: center;
+    text-align:justify;
 }
 @media(min-width:768px){
 .icono{flex-basis: calc(33.3% - 1rem);
@@ -196,6 +196,7 @@ h3{
 .parrafo{
     color: #333333;
     font-weight: 700;
+    text-align: left;
 }
 
 .subtitulo{
@@ -220,6 +221,10 @@ h3{
 .autor{
     color: #F0B429;
     font-size: 2rem;
-    
+
 }
+}
+.autor-imagen{
+    background-position: center;
+    text-align: center;
 }
